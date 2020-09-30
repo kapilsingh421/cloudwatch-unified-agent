@@ -87,7 +87,7 @@ I have found that the CloudWatch Agent configuration file wizard does a pretty g
 
 RUN command to STOP cloudwatch agent resync configuration of config.json
 1.sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a stop
-2.sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a -a fetch-config -s -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json
+2.sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a fetch-config -s -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json
 
 
 
